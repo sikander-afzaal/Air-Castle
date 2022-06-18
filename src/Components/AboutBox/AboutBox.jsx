@@ -7,10 +7,10 @@ function AboutBox({ img, order, sub, desc, desc2, head }) {
         <img src={img} alt="" />
       </div>
       <div className="right-about">
-        <h2 className="gest">{sub}</h2>
-        <h1>{head}</h1>
-        <p>{desc}</p>
-        <p>{desc2}</p>
+        <h2 className="gest top-sub">{sub}</h2>
+        <h1 className="main-head">{head}</h1>
+        <p className="desc">{desc}</p>
+        <p className="desc">{desc2}</p>
       </div>
     </div>
   );

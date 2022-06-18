@@ -1,0 +1,49 @@
+.work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  padding-inline: 40px;
+  margin-top: 5rem;
+}
+.work img {
+  max-width: 946px;
+  width: 100%;
+  object-fit: contain;
+}
+.work h2,
+.work p,
+.work h1 {
+  text-align: center;
+  max-width: 780px;
+}
+@media screen and (max-width: 700px) {
+  .work h2,
+  .work p,
+  .work h1 {
+    text-align: left;
+  }
+  .work h2 {
+    order: 2;
+  }
+  .work h1 {
+    order: 3;
+  }
+  .work p {
+    order: 4;
+  }
+  .work img {
+    order: 1;
+  }
+  .work {
+    margin-top: 4rem;
+    align-items: flex-start;
+  }
+}
+@media screen and (max-width: 500px) {
+  .work {
+    margin-top: 2rem;
+  }
+}
