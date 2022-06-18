@@ -6,7 +6,7 @@
   width: 100%;
   margin-top: 8rem;
   gap: 8rem;
-  padding-inline: 40px;
+  padding-inline: 20px;
 }
 @media screen and (max-width: 1226px) {
   .about {
