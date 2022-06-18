@@ -4,6 +4,7 @@ import Hero from "./Hero/Hero";
 import "./Home.css";
 import Roadmap from "./Roadmap/Roadmap";
 import Solution from "./Solution/Solution";
+import Team from "./Team/Team";
 import Work from "./Work/Work";
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <Work />
       <Roadmap />
       <Solution />
+      <Team />
     </div>
   );
 }

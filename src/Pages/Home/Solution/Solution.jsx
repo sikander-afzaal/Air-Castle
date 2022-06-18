@@ -47,27 +47,30 @@ function Solution() {
     },
   ];
   return (
-    <div className="solution">
-      <div className="left-solution">
-        <h2 className="top-sub">our services</h2>
-        <h1 className="main-head">Solutions</h1>
-        <p className="desc">
-          Aircastle is driven by the principles of making Web3 more accessible
-          and inclusive by bringing the Web3 educators, builders, entrepreneurs
-          and innovators into a decentralised governance structure.
-        </p>
-      </div>
-      <div className="right-solution">
-        {boxesData.map((elem, key) => {
-          return (
-            <SolutionBox
-              img={elem.img}
-              head={elem.head}
-              desc={elem.desc}
-              key={"sol" + key}
-            />
-          );
-        })}
+    <div className="solution-cont">
+      <div className="solution">
+        <div className="left-solution">
+          <h2 className="top-sub gest">our services</h2>
+          <h1 className="main-head">Solutions</h1>
+          <p className="desc">
+            Aircastle is driven by the principles of making Web3 more accessible
+            and inclusive by bringing the Web3 educators, builders,
+            entrepreneurs and innovators into a decentralised governance
+            structure.
+          </p>
+        </div>
+        <div className="right-solution">
+          {boxesData.map((elem, key) => {
+            return (
+              <SolutionBox
+                img={elem.img}
+                head={elem.head}
+                desc={elem.desc}
+                key={"sol" + key}
+              />
+            );
+          })}
+        </div>
       </div>
     </div>
   );

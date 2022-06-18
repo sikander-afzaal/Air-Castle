@@ -6,7 +6,7 @@ function Roadmap() {
     <div className="roadmap">
       <div className="row-text">
         <div className="left-row">
-          <h2 className="top-sub">the future of aircastle</h2>
+          <h2 className="top-sub gest">the future of aircastle</h2>
           <h1 className="main-head">
             Morbi mi eros, sagittis ac porttitor dictum, semper in urna. Nunc
             dapibus ipsum sit amet magna euismod ullamcorper. Mauris felis urna,
@@ -27,7 +27,7 @@ function Roadmap() {
       </div>
       <img src={road} alt="" />
       <div className="text-div">
-        <h2 className="top-sub">THE DAO</h2>
+        <h2 className="top-sub gest">THE DAO</h2>
         <h1 className="main-head">Aircastle DAO</h1>
         <p className="desc">
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem

@@ -1,0 +1,28 @@
+.teambox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 213px;
+  height: 380px;
+  gap: 10px;
+}
+.team-img {
+  max-width: 100%;
+  object-fit: contain;
+}
+.teambox h2 {
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+}
+.teambox p {
+  font-weight: 300;
+  font-size: 13px;
+  color: #a4a7af;
+}
+@media screen and (max-width: 775px) {
+  .teambox {
+    width: 156px;
+  }
+}
