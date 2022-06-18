@@ -12,8 +12,15 @@
   font-family: "Atik300";
   src: url("/src/Assets/Aircastle\ Fonts/Aktiv Grotesk/AktivGrotesk-Light.otf");
 }
+@font-face {
+  font-family: "Gestalt";
+  src: url("/src/Assets/Aircastle\ Fonts/Gestalt-HTF-Linear-Light.otf");
+}
 p {
   font-family: "Atik300", "sans-serif" !important;
+}
+.gest {
+  font-family: "Gestalt", "sans-serif" !important;
 }
 body {
   background-color: black;
