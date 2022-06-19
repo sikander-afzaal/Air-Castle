@@ -15,9 +15,9 @@
 .order-about {
   order: 2;
 }
-.left-about img {
+.left-about video {
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 .right-about {
   display: flex;

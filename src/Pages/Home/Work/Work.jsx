@@ -1,11 +1,11 @@
 import React from "react";
 import "./Work.css";
-import temp from "../../../Assets/temp.png";
+import vid from "../../../Assets/what1.webm";
 function Work() {
   return (
     <div className="work">
       <h2 className="top-sub gest">What we do</h2>
-      <img src={temp} alt="" />
+      <video src={vid} autoPlay muted loop controls={false} />
       <h1 className="main-head">
         Aircastle exists to build the communities of tomorrow.
       </h1>

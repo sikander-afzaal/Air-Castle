@@ -1,8 +1,8 @@
 import React from "react";
 import AboutBox from "../../../Components/AboutBox/AboutBox";
 import "./About.css";
-import img1 from "../../../Assets/about1.png";
-import img2 from "../../../Assets/temp.png";
+import vid1 from "../../../Assets/why1.webm";
+import vid2 from "../../../Assets/how1.webm";
 function About() {
   return (
     <div className="about">
@@ -19,14 +19,14 @@ function About() {
           space, creators don't receive the earnings. Web3 (ownership) is
           changing that. It's the start of a digital revolution. We will own and
           have control of data, participation and community again.`}
-        img={img1}
+        vid={vid1}
         head={"The start of a digital revolution"}
         sub={`why we do it`}
       />
       <AboutBox
         order
         desc={`We are bridging the gap between web 2 and Web3 by co-creation. The Aircastle team is a collective of the best Web3 and entertainment experts that have come together to facilitate sovereign communities and unlock new business models. We provide community-driven technology solutions with low barrier accessibility, high standards and inclusivity. Aircastle is becoming the hallmark in the industry by delivering high-quality tech and the best experiences (UX), services (open source) and education. `}
-        img={img2}
+        vid={vid2}
         head={
           "Aircastle makes it possible for brands to build strong communities and peer-to-peer economies on the internet of tomorrow"
         }

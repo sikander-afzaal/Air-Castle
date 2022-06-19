@@ -1,10 +1,10 @@
 import React from "react";
 import "./AboutBox.css";
-function AboutBox({ img, order, sub, desc, desc2, head }) {
+function AboutBox({ vid, order, sub, desc, desc2, head }) {
   return (
     <div className="about-box">
       <div className={`left-about ${order ? "order-about" : ""}`}>
-        <img src={img} alt="" />
+        <video src={vid} autoPlay muted loop controls={false} />
       </div>
       <div className="right-about">
         <h2 className="gest top-sub">{sub}</h2>
