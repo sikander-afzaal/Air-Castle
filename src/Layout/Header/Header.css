@@ -33,6 +33,11 @@
   background-color: transparent;
   text-transform: uppercase;
   cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+.touch:hover {
+  background-color: white;
+  color: black;
 }
 @media screen and (max-width: 812px) {
   .header {

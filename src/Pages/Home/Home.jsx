@@ -7,6 +7,7 @@ import Solution from "./Solution/Solution";
 import Team from "./Team/Team";
 import Work from "./Work/Work";
 import Eco from "./Eco/Eco";
+import Exclusive from "./Exclusive/Exclusive";
 function Home() {
   return (
     <div className="home">
@@ -17,6 +18,7 @@ function Home() {
       <Solution />
       <Eco />
       <Team />
+      <Exclusive />
     </div>
   );
 }
