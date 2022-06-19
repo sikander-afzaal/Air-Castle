@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
-import vid from "../../../Assets/hero-vid.webm";
-import vid2 from "../../../Assets/hero-mobile-vid.webm";
+import vid from "../../../Assets/hero-vid.mp4";
+import vid2 from "../../../Assets/hero-mobile-vid.mp4";
 function Hero() {
   return (
     <div className="hero">

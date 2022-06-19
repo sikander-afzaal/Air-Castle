@@ -1,6 +1,6 @@
 import React from "react";
 import "./Work.css";
-import vid from "../../../Assets/what1.webm";
+import vid from "../../../Assets/what1.mp4";
 function Work() {
   return (
     <div className="work">

@@ -1,8 +1,8 @@
 import React from "react";
 import AboutBox from "../../../Components/AboutBox/AboutBox";
 import "./About.css";
-import vid1 from "../../../Assets/why1.webm";
-import vid2 from "../../../Assets/how1.webm";
+import vid1 from "../../../Assets/why1.mp4";
+import vid2 from "../../../Assets/how1.mp4";
 function About() {
   return (
     <div className="about">
