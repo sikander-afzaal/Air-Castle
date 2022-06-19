@@ -4,7 +4,7 @@
   align-items: center;
   flex-direction: column;
   width: 100%;
-  padding-inline: 20px;
+  padding-inline: 24px;
   margin-top: 6rem;
   max-width: 1500px;
   gap: 3rem;
@@ -26,7 +26,9 @@
 }
 .left-team p {
   font-size: 28px;
+  line-height: 38px;
   font-weight: 400;
+  letter-spacing: 0.02em;
 }
 .right-team {
   display: grid;
@@ -46,24 +48,53 @@
   margin-top: 8rem;
   padding-inline: 20px;
 }
+.text-bot .top-sub {
+  padding-bottom: 30px;
+  width: 100%;
+  border-bottom: 1px solid #575757;
+}
 .row {
+  margin-top: 20px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: flex-start;
+  width: 100%;
   gap: 3rem;
 }
-.row .main-head:first-of-type {
-  max-width: 680px;
+.row h1 {
+  max-width: 700px;
 }
-.row .main-head:last-of-type {
-  max-width: 720px;
+.row .desc:first-of-type {
+  max-width: 900px;
 }
 .text-bot h1 {
-  font-size: 28px;
+  font-size: 34px;
   line-height: 38px;
   letter-spacing: 0.02em;
   font-weight: 400;
   color: #ecf1f1;
+}
+
+@media screen and (max-width: 1480px) {
+  .text-bot {
+    margin-top: 4rem;
+    align-items: center;
+    gap: 0px;
+  }
+  .row {
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .text-bot .top-sub {
+    text-align: center;
+  }
+  .row h1 {
+    font-size: 30px;
+    max-width: 100%;
+  }
 }
 @media screen and (max-width: 1300px) {
   .team {
@@ -82,22 +113,6 @@
   }
   .left-team p {
     text-align: center;
-  }
-}
-@media screen and (max-width: 1052px) {
-  .text-bot {
-    margin-top: 4rem;
-    align-items: center;
-  }
-  .row {
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-  }
-  .row h1 {
-    font-size: 20px;
   }
 }
 @media screen and (max-width: 775px) {
@@ -122,16 +137,25 @@
 }
 @media screen and (max-width: 580px) {
   .team {
-    margin-top: 3rem;
+    margin-top: 124px;
+  }
+  .text-bot {
+    margin-top: 50px;
   }
   .right-team {
     grid-template-columns: 1fr 1fr;
     column-gap: 20px;
+    row-gap: 40px;
   }
   .bottom-team {
     gap: 40px;
   }
   .left-team p {
     font-size: 20px;
+  }
+  .text-bot .top-sub {
+    text-align: left;
+    border-bottom: none;
+    padding: 0px;
   }
 }

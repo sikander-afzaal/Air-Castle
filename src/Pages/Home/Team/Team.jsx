@@ -112,20 +112,19 @@ function Team() {
         <h2 className="top-sub gest">manifesto</h2>
         <div className="row">
           <h1 className="main-head">
-            Making the web more accessible and inclusive is what drives us. We
-            do this by bringing Web3 educators, builders, entrepreneurs and
+            Making the web more accessible and inclusive is what drives us
+          </h1>
+          <p className="desc">
+            We do this by bringing Web3 educators, builders, entrepreneurs and
             innovators together. The Aircastle community brings equality, online
-            ownership, new economies & governance models. It helps to freely
+            ownership. new economies & governance models. It helps to freely
             engage (in a compliant, trusted, and privacy-preserving manner) in
-            the peer-to-peer exchange of value.
-          </h1>
-          <h1 className="main-head">
-            We believe in a future where culture creators are directly supported
-            and funded by their participating community members: who help each
-            other to grow & generate success. Aircastle is all about
-            democratising the internet whilst creating brand and artist
-            autonomy.
-          </h1>
+            the peer-to-peer exchange of value. We believe in a future where
+            culture creators are directly supported and funded by their
+            participating community members: who help each other to grow &
+            generate success. Aircastle is all about democratising the internet
+            whilst creating brand and artist autonomy
+          </p>
         </div>
       </div>
     </>

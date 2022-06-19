@@ -5,11 +5,11 @@
   flex-direction: column;
   gap: 20px;
   width: 100%;
-  padding-inline: 20px;
+  padding-inline: 24px;
   margin-top: 5rem;
 }
 .work video {
-  max-width: 700px;
+  max-width: 540px;
   width: 100%;
   object-fit: contain;
 }
@@ -44,6 +44,6 @@
 }
 @media screen and (max-width: 500px) {
   .work {
-    margin-top: 2rem;
+    margin-top: 124px;
   }
 }

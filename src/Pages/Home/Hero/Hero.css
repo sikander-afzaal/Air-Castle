@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  padding-inline: 24px;
 }
 .hero:after {
   content: "";
@@ -32,12 +33,14 @@
   flex-direction: column;
   text-align: center;
   gap: 20px;
+  width: 100%;
 }
 .hero-text-div h1 {
   font-size: 64px;
   color: #ffffff;
   font-weight: 500;
   max-width: 900px;
+  line-height: 74px;
 }
 .hero-text-div p {
   font-weight: 300;
@@ -45,6 +48,9 @@
   color: #ffffff;
   max-width: 680px;
   opacity: 0.8;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .desktop {
   display: block;
@@ -64,20 +70,24 @@
 }
 @media screen and (max-width: 700px) {
   .hero-text-div h1 {
-    font-size: 2.5rem;
+    font-size: 28px;
+    line-height: 36px;
+    max-width: 100%;
   }
   .hero-text-div p {
-    font-size: 1rem;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 100%;
+    letter-spacing: 0.04em;
+  }
+  .hero {
+    max-height: 680px;
+    min-height: 680px;
   }
   .desktop {
     display: none;
   }
   .mobile {
-    display: block;
-  }
-}
-@media screen and (max-width: 500px) {
-  .hero-text-div h1 {
-    font-size: 1.75rem;
+    display: grid;
   }
 }

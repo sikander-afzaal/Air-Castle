@@ -30,6 +30,13 @@ function Hero() {
           high-impact brands and individuals to co-create stronger relationships
           with their fans and customers by building Web3 solutions
         </p>
+        <a
+          href="mailto:remco@aircastle.xyz"
+          target={"blank"}
+          className="touch mobile"
+        >
+          Get in touch
+        </a>
       </div>
     </div>
   );

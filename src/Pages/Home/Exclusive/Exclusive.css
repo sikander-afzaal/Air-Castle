@@ -7,7 +7,7 @@
   width: 100%;
   background: #ecf1f1;
   margin-top: 3rem;
-  padding: 2rem 20px;
+  padding: 50px 24px;
   min-height: 405.55px;
 }
 .exclusive h1 {
@@ -38,6 +38,6 @@
     width: 90%;
   }
   .exclusive .touch {
-    display: block;
+    display: grid;
   }
 }

@@ -71,15 +71,15 @@ function Eco() {
               Polygon
             </li>
             <li>
-              <img src={icon3} alt="" />
+              <img src={icon4} alt="" />
               Avalanche
             </li>
             <li>
-              <img src={icon4} alt="" />
+              <img src={icon5} alt="" />
               Cosmos
             </li>
             <li>
-              <img src={icon5} alt="" />
+              <img src={icon3} alt="" />
               Near
             </li>
           </ul>

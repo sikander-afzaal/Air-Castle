@@ -7,7 +7,9 @@ function Exclusive() {
         Aircastle is an exclusive Web3 tech launching partner for high impact
         individuals and brands.
       </h1>
-      <button className="touch">Get in touch</button>
+      <a href="mailto:remco@aircastle.xyz" target={"blank"} className="touch">
+        Get in touch
+      </a>
     </div>
   );
 }

@@ -14,7 +14,7 @@ function Home() {
       <Hero />
       <About />
       <Work />
-      <Roadmap />
+      {/* <Roadmap /> */}
       <Solution />
       <Eco />
       <Team />

@@ -24,5 +24,6 @@
 @media screen and (max-width: 775px) {
   .teambox {
     width: 156px;
+    height: 300px;
   }
 }
