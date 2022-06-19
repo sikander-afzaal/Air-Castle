@@ -6,6 +6,7 @@ import Roadmap from "./Roadmap/Roadmap";
 import Solution from "./Solution/Solution";
 import Team from "./Team/Team";
 import Work from "./Work/Work";
+import Eco from "./Eco/Eco";
 function Home() {
   return (
     <div className="home">
@@ -14,6 +15,7 @@ function Home() {
       <Work />
       <Roadmap />
       <Solution />
+      <Eco />
       <Team />
     </div>
   );
