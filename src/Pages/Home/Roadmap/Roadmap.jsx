@@ -1,6 +1,6 @@
 import React from "react";
 import "./Roadmap.css";
-import road from "../../../Assets/road.png";
+import road from "../../../Assets/roadmap.webp";
 function Roadmap() {
   return (
     <div className="roadmap">
