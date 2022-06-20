@@ -7,7 +7,9 @@ function TeamBox({ img, expertise, name, url }) {
       <img src={img} alt="" className="team-img" />
       <h2>{name}</h2>
       <p>{expertise}</p>
-      <img src={icon} alt="" className="icon" />
+      <a href={url} target={"blank"}>
+        <img src={icon} alt="" className="icon" />
+      </a>
     </div>
   );
 }

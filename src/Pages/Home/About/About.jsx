@@ -25,7 +25,7 @@ function About() {
       />
       <AboutBox
         order
-        desc={`We are bridging the gap between web 2 and Web3 by co-creation. The Aircastle team is a collective of the best Web3 and entertainment experts that have come together to facilitate sovereign communities and unlock new business models. We provide community-driven technology solutions with low barrier accessibility, high standards and inclusivity. Aircastle is becoming the hallmark in the industry by delivering high-quality tech and the best experiences (UX), services (open source) and education. `}
+        desc={`We are bridging the gap between web2 and Web3 by co-creation. The Aircastle team is a collective of the best Web3 and entertainment experts that have come together to facilitate sovereign communities and unlock new business models. We provide community-driven technology solutions with low barrier accessibility, high standards and inclusivity. Aircastle is becoming the hallmark in the industry by delivering high-quality tech and the best experiences (UX), services (open source) and education. `}
         vid={vid2}
         head={
           "Aircastle makes it possible for brands to build strong communities and peer-to-peer economies on the internet of tomorrow"

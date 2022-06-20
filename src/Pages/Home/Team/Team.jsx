@@ -2,12 +2,13 @@ import React from "react";
 import TeamBox from "../../../Components/TeamBox/TeamBox";
 import "./Team.css";
 import temp from "../../../Assets/TeamImgs/team-temp.svg";
+import team1 from "../../../Assets/TeamImgs/team1.jpeg";
 function Team() {
   const teamData = [
     {
-      img: temp,
-      url: "#",
-      name: "John Johnson",
+      img: team1,
+      url: "https://www.linkedin.com/in/remcomercey/",
+      name: "Remco Mercey",
       expertise: "AREA OF EXPERTISE",
     },
     {
@@ -16,48 +17,7 @@ function Team() {
       name: "John Johnson",
       expertise: "AREA OF EXPERTISE",
     },
-    {
-      img: temp,
-      url: "#",
-      name: "John Johnson",
-      expertise: "AREA OF EXPERTISE",
-    },
-    {
-      img: temp,
-      url: "#",
-      name: "John Johnson",
-      expertise: "AREA OF EXPERTISE",
-    },
-    {
-      img: temp,
-      url: "#",
-      name: "John Johnson",
-      expertise: "AREA OF EXPERTISE",
-    },
-    {
-      img: temp,
-      url: "#",
-      name: "John Johnson",
-      expertise: "AREA OF EXPERTISE",
-    },
-    {
-      img: temp,
-      url: "#",
-      name: "John Johnson",
-      expertise: "AREA OF EXPERTISE",
-    },
-    {
-      img: temp,
-      url: "#",
-      name: "John Johnson",
-      expertise: "AREA OF EXPERTISE",
-    },
-    {
-      img: temp,
-      url: "#",
-      name: "John Johnson",
-      expertise: "AREA OF EXPERTISE",
-    },
+
     {
       img: temp,
       url: "#",
