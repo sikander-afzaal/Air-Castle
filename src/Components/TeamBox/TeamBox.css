@@ -1,8 +1,7 @@
 .teambox {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 269px 1fr 1fr auto;
   width: 213px;
   height: 380px;
   gap: 10px;
@@ -40,6 +39,8 @@
   .teambox {
     width: 156px;
     height: 300px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 201px 1fr 1fr auto;
   }
   .team-img {
     max-width: 156px;

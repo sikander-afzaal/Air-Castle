@@ -162,6 +162,7 @@
     flex-direction: column;
     max-height: 100%;
     height: auto;
+    gap: 16px;
   }
   .col-div h2 {
     display: block;

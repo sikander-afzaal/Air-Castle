@@ -125,6 +125,7 @@
   }
   .left-team p {
     text-align: left;
+    line-height: 28px;
   }
   .text-bot {
     margin-top: 0rem;

@@ -1,40 +1,44 @@
 import React from "react";
 import TeamBox from "../../../Components/TeamBox/TeamBox";
 import "./Team.css";
-import temp from "../../../Assets/TeamImgs/team-temp.svg";
-import team1 from "../../../Assets/TeamImgs/team1.jpeg";
+import team2 from "../../../Assets/TeamImgs/team2.jpg";
+import team3 from "../../../Assets/TeamImgs/team3.jpg";
+import team4 from "../../../Assets/TeamImgs/team4.jpg";
+import team5 from "../../../Assets/TeamImgs/team5.jpg";
+import team6 from "../../../Assets/TeamImgs/team6.jpg";
 function Team() {
   const teamData = [
     {
-      img: team1,
-      url: "https://www.linkedin.com/in/remcomercey/",
-      name: "Remco Mercey",
-      expertise: "AREA OF EXPERTISE",
-    },
-    {
-      img: temp,
-      url: "#",
-      name: "John Johnson",
-      expertise: "AREA OF EXPERTISE",
+      img: team2,
+      url: "https://www.linkedin.com/in/rudolfvanee/",
+      name: "Rudolf van Ee",
+      expertise: "People, Strategy and Partnerships",
     },
 
     {
-      img: temp,
-      url: "#",
-      name: "John Johnson",
-      expertise: "AREA OF EXPERTISE",
+      img: team3,
+      url: "https://www.linkedin.com/in/remcomercey/",
+      name: "Remco Mercey",
+      expertise: "Business Strategist Media & Entertainment",
     },
     {
-      img: temp,
-      url: "#",
-      name: "John Johnson",
-      expertise: "AREA OF EXPERTISE",
+      img: team4,
+      url: "https://www.linkedin.com/in/vikpande/",
+      name: "Vikas Pandey",
+      expertise: "Web3 Tech",
     },
     {
-      img: temp,
-      url: "#",
-      name: "John Johnson",
-      expertise: "AREA OF EXPERTISE",
+      img: team5,
+      url: "https://www.linkedin.com/in/sjoerd-de-ridder-957874238/",
+      name: "Sjoerd De Ridder",
+      expertise:
+        "Allround creative specialized in Brand Design, UI and motion ",
+    },
+    {
+      img: team6,
+      url: "https://www.linkedin.com/in/lien-nguyen-436a7129/",
+      name: "Lieng Nguyen",
+      expertise: "Creative director",
     },
   ];
   return (
