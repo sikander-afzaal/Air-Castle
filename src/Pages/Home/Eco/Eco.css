@@ -150,18 +150,18 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 2rem;
-    row-gap: 3rem;
   }
   .center-img {
     display: none;
   }
   .col-div {
+    margin-bottom: 2rem;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    gap: 10px;
+    max-height: 100%;
+    height: auto;
   }
   .col-div h2 {
     display: block;

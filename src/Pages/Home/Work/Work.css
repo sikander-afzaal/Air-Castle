@@ -6,7 +6,7 @@
   gap: 20px;
   width: 100%;
   padding-inline: 24px;
-  margin-top: 5rem;
+  margin-top: 224px;
 }
 .work video {
   max-width: 540px;
@@ -34,16 +34,12 @@
   .work p {
     order: 4;
   }
-  .work img {
+  .work video {
+    margin-bottom: 40px;
     order: 1;
   }
   .work {
-    margin-top: 4rem;
-    align-items: flex-start;
-  }
-}
-@media screen and (max-width: 500px) {
-  .work {
     margin-top: 124px;
+    align-items: flex-start;
   }
 }
