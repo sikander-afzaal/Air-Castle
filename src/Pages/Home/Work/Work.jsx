@@ -5,7 +5,19 @@ function Work() {
   return (
     <div className="work">
       <h2 className="top-sub gest">What we do</h2>
-      <video src={vid} autoPlay muted loop controls={false} />
+      dangerouslySetInnerHTML=
+      {{
+        __html: `
+        <video
+          loop
+          muted
+          autoplay
+          playsinline
+          preload="metadata"
+        >
+        <source src="${vid}" type="video/mp4" />
+        </video>`,
+      }}
       <h1 className="main-head">
         Aircastle exists to build the communities of tomorrow.
       </h1>
